@@ -127,11 +127,13 @@ y = lib22.gols
 ax = sns.scatterplot(data=lib22, x="fin_alvo", y="gols")
 ax.figure.set_size_inches(10, 6)
 ax.set_title("Finalizações realizadas no alvo X gols na Libertadores de 2022")
-ax.hlines(y = y.mean(), xmin = x.min(), xmax = x.max(), colors='gray', linestyles='dashed')
-ax.vlines(x = x.mean(), ymin = y.min(), ymax = y.max(), colors='gray', linestyles='dashed')
+ax.hlines(y = y.mean(), xmin = x.min(), xmax = x.max(), colors='crimson', linestyles='dashed')
+ax.vlines(x = x.mean(), ymin = y.min(), ymax = y.max(), colors='black', linestyles='dashed')
+ax.text(6.1, 6.8, 'Média das finalizações no gol', fontsize=10, color = 'black', va = "bottom")
+ax.text(2, 2.7, 'Média dos gols', fontsize=10, color = 'crimson', ha = "left")
+plt.show()
 ```
-
-![gráfico 22](https://github.com/mths-andrade/flamengo/assets/159069202/143dcfdf-409e-4fd8-bfb5-e227be205932)
+![gráfico 22](https://github.com/user-attachments/assets/c0289dd3-44f3-45ab-9d11-927c59f875a2)
 
 Temos várias situações, por exemplo, 2 gols com 3, 4, 5 e 6 finalizações no alvo e quatro finalizações que resultaram em um e dois gols. As linhas tracejadas são as médias de cada categoria: 6 finalizações no alvo e 2.54 gols por jogo, na minha opinião, médias bem altas, maiores do que as médias do campeonato.
 
@@ -167,7 +169,7 @@ Porém, temos um p-valor alto de 0.655, então não podemos considerar os result
 2. O ano mais eficaz do time nesse período, e provavelmente na história, foi de 2022. Ainda assim, sinto que não dão o destaque devido a essa campanha forte estatisticamente.
 3. Se fazendo recortes de 8 a 13 jogos não conseguimos prever direito o número de gols, com 50, 60 ou 70 é impossível.
 
-Notebook: [flamengo.ipynb](https://github.com/mths-andrade/flamengo/blob/efc526c9c390b6b7ce1f2596b0ddb48dc9f6078a/flamengo.ipynb)
+Notebook: [flamengo_atq.ipynb](https://github.com/mths-andrade/flamengo/blob/e1c2f067189448a78469dda4a0a05f08eac0a1e0/flamengo_atq.ipynb)
 
 Agradeço a todas as pessoas que leram até aqui, muito obrigado!
 
