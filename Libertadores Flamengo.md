@@ -49,8 +49,7 @@ def regressao(x,y,dataset,titulo):
 ## 2019
 
 De cara já temos um ano com o número máximo de 13 jogos e um título.
-
-![tendência 19](https://github.com/mths-andrade/flamengo/assets/159069202/54f555b9-2ad0-44aa-afbc-e9eb41182aa6)
+![tendência 19](https://github.com/user-attachments/assets/00f2ed84-04c4-41ca-a64b-ccd3a6f2569f)
 
 Não temos tanta relação entre finalizações no alvo e gols de fato como visto acima. Vamos ver com os dados estatísticos. Usei o método dos mínimos quadrados para ajustar os dados.
 
@@ -64,7 +63,7 @@ Como o p-valor é menor que 0.05, o modelo é significativo. Temos um R² relati
 
 No ano de início da pandemia, o time foi eliminado na oitavas, então temos menos dados, oito para ser mais exato.
 
-![tendência 20](https://github.com/mths-andrade/flamengo/assets/159069202/008e8bc9-f35b-4f84-bf9b-b64d09e361ee)
+![tendência 20](https://github.com/user-attachments/assets/e5b46fdc-ebc0-41c3-b124-5e61978c2994)
 
 A relação entre os dados parece maior.
 
@@ -78,7 +77,7 @@ O modelo é significativo pois o p-valor é menor que 0.05. R² é 0.733, ligeir
 
 Mais um ano em que o time chegou à final do torneio, então teve o máximo de 13 jogos. 
 
-![tendência 21](https://github.com/mths-andrade/flamengo/assets/159069202/de286543-7b4e-4861-b48f-fd20eee2bd28)
+![tendência 21](https://github.com/user-attachments/assets/0878d9b7-be15-4a75-b66e-226e58623cac)
 
 A diferença entre as categorias é muito grande, sinalizando baixa eficácia do time. Isso pode ser confirmado com o modelo.
 
@@ -92,7 +91,7 @@ p-valor menor que 0.05: modelo significativo. Temos um R² baixo de 0.488, o que
 
 Temos o segundo ano no nosso estudo em que o time chegou à final e ganhou o título. Portanto, outro ano com 13 dados.
 
-![tendência 22](https://github.com/mths-andrade/flamengo/assets/159069202/f4cadd32-9df5-4c3e-9ac4-36d5ac04b8f8)
+![tendência 22](https://github.com/user-attachments/assets/962db2d3-720b-473c-a31f-7e87fd6e2c2a)
 
 Aparentemente há grande similaridade nas duas categorias de dados.
 
@@ -108,7 +107,7 @@ Portanto, minha primeira impressão de que o ano mais eficaz seria esse estava c
 
 O time parou nas oitavas no ano passado, então apenas 8 jogos na amostra.
 
-![tendência 23](https://github.com/mths-andrade/flamengo/assets/159069202/ca699a71-e680-41c0-825c-fcf14139c477)
+![tendência 23](https://github.com/user-attachments/assets/a1dff25d-0cae-4ca2-bc3c-0b15ddcf545e)
 
 Novamente uma eficácia apenas regular.
 
@@ -153,7 +152,7 @@ Dessa vez, há muita diferença entre os números de jogos, especialmente em 202
 |2022|335|367|108|62|
 |2023|291|282|97|61|
 
-![tendência_final](https://github.com/mths-andrade/flamengo/assets/159069202/6411e2c8-25b7-47df-9979-cd65f1a7a252)
+![tendência final](https://github.com/user-attachments/assets/9d0d8b12-15b2-4a3e-a5e9-f6311c2eabc2)
 
 A similaridade entre finalizações no alvo e gols chama a atenção imediatamente, parecem idênticos.
 
@@ -172,4 +171,3 @@ Porém, temos um p-valor alto de 0.655, então não podemos considerar os result
 Notebook: [flamengo_atq.ipynb](https://github.com/mths-andrade/flamengo/blob/e1c2f067189448a78469dda4a0a05f08eac0a1e0/flamengo_atq.ipynb)
 
 Agradeço a todas as pessoas que leram até aqui, muito obrigado!
-
